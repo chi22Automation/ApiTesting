@@ -25,10 +25,10 @@ public  class UserServiceHelper
 		System.out.println("{\"username\":\"chitraemail22@ta.com\",\"password\":\"chitra@123\"}");
 		System.out.println("uri is"+getBaseUri()+Endpoints.LOGIN);
 		response=given().contentType("application/json")
-				//.body(loginob).when().post(Util.getApplicationProperty("baseurl")+Endpoints.LOGIN);
+				.body(loginob).when().post(Util.getApplicationProperty("baseurl")+Endpoints.LOGIN);
 				
 				
-				.body("{\"username\":\"chitraemail22@ta.com\",\"password\":\"chitra@123\"}").when().post(getBaseUri()+Endpoints.LOGIN);
+				//.body("{\"username\":\"chitraemail22@ta.com\",\"password\":\"chitra@123\"}").when().post(getBaseUri()+Endpoints.LOGIN);
 		System.out.println("LoginToApplication method is called");
 		return response;
 	}
@@ -39,5 +39,21 @@ public  class UserServiceHelper
 		System.out.println("Get Token Method is called");
 		return token;
 	}
-
+     public static Response getUserData()
+    {
+	 return response;
+     }
+     public static Response addUserData()
+     {
+ 	 return response;
+      }
+     public static Response updateUserData()
+     {
+ 	 return response;
+      }
+     public static Response deleteUserData()
+       {
+ 	 return response;
+      }
+     
 }
