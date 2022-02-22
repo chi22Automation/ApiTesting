@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-21T16:59:05 PST" name="Default suite" finished-at="2022-02-21T16:59:28 PST" duration-ms="23063">
+    <groups>
+      <group name="dependent method">
+        <method signature="AddUserDataTest.createuserWithPojo()[pri:2, instance:com.tests.simpleCRUDWithTechaechApp.AddUserDataTest@306f16f3]" name="createuserWithPojo" class="com.tests.simpleCRUDWithTechaechApp.AddUserDataTest"/>
+        <method signature="GetUserTest.getUser()[pri:2, instance:com.tests.simpleCRUDWithTechaechApp.GetUserTest@22e357dc]" name="getUser" class="com.tests.simpleCRUDWithTechaechApp.GetUserTest"/>
+        <method signature="UpdateUserDataTest.updateUserWithPojo()[pri:3, instance:com.tests.simpleCRUDWithTechaechApp.UpdateUserDataTest@702b8b12]" name="updateUserWithPojo" class="com.tests.simpleCRUDWithTechaechApp.UpdateUserDataTest"/>
+      </group> <!-- dependent method -->
+    </groups>
+    <test started-at="2022-02-21T16:59:05 PST" name="Default test" finished-at="2022-02-21T16:59:28 PST" duration-ms="23063">
+      <class name="com.test.tests.TecharchApiTestScript">
+        <test-method signature="callAllTheTest()[pri:0, instance:com.test.tests.TecharchApiTestScript@53976f5c]" started-at="2022-02-21T16:59:22 PST" name="callAllTheTest" depends-on-groups="dependent method" finished-at="2022-02-21T16:59:28 PST" duration-ms="6156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callAllTheTest -->
+      </class> <!-- com.test.tests.TecharchApiTestScript -->
+      <class name="com.tests.simpleCRUDWithTechaechApp.AddUserDataTest">
+        <test-method signature="createuserWithPojo()[pri:2, instance:com.tests.simpleCRUDWithTechaechApp.AddUserDataTest@306f16f3]" started-at="2022-02-21T16:59:05 PST" name="createuserWithPojo" finished-at="2022-02-21T16:59:08 PST" duration-ms="2996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuserWithPojo -->
+      </class> <!-- com.tests.simpleCRUDWithTechaechApp.AddUserDataTest -->
+      <class name="com.tests.simpleCRUDWithTechaechApp.UpdateUserDataTest">
+        <test-method signature="updateUserWithPojo()[pri:3, instance:com.tests.simpleCRUDWithTechaechApp.UpdateUserDataTest@702b8b12]" started-at="2022-02-21T16:59:15 PST" name="updateUserWithPojo" finished-at="2022-02-21T16:59:22 PST" duration-ms="6861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserWithPojo -->
+      </class> <!-- com.tests.simpleCRUDWithTechaechApp.UpdateUserDataTest -->
+      <class name="com.tests.simpleCRUDWithTechaechApp.GetUserTest">
+        <test-method signature="getUser()[pri:2, instance:com.tests.simpleCRUDWithTechaechApp.GetUserTest@22e357dc]" started-at="2022-02-21T16:59:08 PST" name="getUser" finished-at="2022-02-21T16:59:15 PST" duration-ms="7007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+      </class> <!-- com.tests.simpleCRUDWithTechaechApp.GetUserTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
